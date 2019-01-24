@@ -4,7 +4,7 @@ $(document).ready(function() {
   var formElement = $("#guestbook-form");
   var submitElement = $("#guestbook-submit");
   var entryContentElement = $("#guestbook-entry-content");
-  var hostAddressElement = $("#guestbook-host-address");
+  // var hostAddressElement = $("#guestbook-host-address");
 
   var appendGuestbookEntries = function(data) {
     entriesElement.empty();
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
   submitElement.click(handleSubmission);
   formElement.submit(handleSubmission);
-  hostAddressElement.append(document.URL);
+  // hostAddressElement.append(document.URL);
 
   // Poll every second.
   (function fetchGuestbook() {
