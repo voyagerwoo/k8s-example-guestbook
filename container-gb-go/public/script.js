@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   var appendGuestbookEntries = function(data) {
     entriesElement.empty();
-    $.each(data, function(key, val) {
+    $.each(data.reverse(), function(key, val) {
       entriesElement.append("<p>" + val + "</p>");
     });
   }
@@ -19,7 +19,9 @@ $(document).ready(function() {
     if (entryValue.length > 0) {
       entriesElement.append("<p>...</p>");
       $.getJSON("rpush/guestbook/" + entryValue, appendGuestbookEntries);
+      entryContentElement.val('');
     }
+    
     return false;
   }
 

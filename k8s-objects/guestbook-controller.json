@@ -22,7 +22,7 @@
             "containers":[
                {
                   "name":"guestbook",
-                  "image":"voyagerwoo/community-day-2019-gb:v1",
+                  "image":"voyagerwoo/community-day-2019-gb:v5",
                   "ports":[
                      {
                         "name":"http-server",
