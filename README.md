@@ -2,7 +2,7 @@
 
 EKS에 배포해보는 2019 AWS Community Day 컨테이너 소모임 방명록 레파지토리입니다!
 
-![](./aws-community-day-guest-book.png)
+<img src="./aws-community-day-guest-book.png" width="600">
 
 만약 같이 해보시려면 아래 링크를 따라해보세요!
 
